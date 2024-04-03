@@ -8,7 +8,7 @@ def main():
     print_sudoku(sudoku_board)
     input("Press Enter to solve the puzzle...")
     solve(sudoku_board)
-    print("Solved Sudoku Puzzle:")
+    print("Solved Sudoku Puzzle")
     print_sudoku(sudoku_board)
 
 if __name__ == "__main__":
